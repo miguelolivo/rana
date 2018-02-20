@@ -46,9 +46,11 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(284, 262)
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.ComboBox1)
+        Me.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
